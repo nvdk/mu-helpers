@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "es2020",
+		"lib": [
+			"es2020"
+		],
+		"isolatedModules": true,
+		"module": "commonjs",
+		"allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "isolatedModules": true
+	},
+	"include": [
+		"src"
+	],
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"experimentalResolver": true
+	}
+}
